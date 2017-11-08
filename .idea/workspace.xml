@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2d69331-7602-4145-a8d4-dd78082916ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/users/edit.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/users/index.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/users/new.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/users/show.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/Controller/DefaultController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/Controller/UsersController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/Entity/Chambre.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/Entity/Demande.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/Entity/Evenement.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/Entity/Reservation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/Entity/Users.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/Entity/Voiture.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/Entity/Vol.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/Entity/Voyageorganise.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/Entity/Voyagepersonalise.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/Form/UsersType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/GoVoyageBundle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/Resources/config/routing.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/Resources/config/routing/users.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/Resources/config/services.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/Resources/views/Default/index.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoVoyageBundle/Tests/Controller/UsersControllerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/GoVoyageBundle/Controller/DefaultControllerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-    </list>
+    <list default="true" id="e2d69331-7602-4145-a8d4-dd78082916ed" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,6 +126,7 @@
       <command text="s doctrine:mapping:import GoVoyageBundle annotation" />
       <command text="s doctrine:generate:entities GoVoyageBundle" />
       <command text="s doctrine:generate:crud GoVoyageBundle:Users" />
+      <command text="c dump-autoload" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -347,7 +320,7 @@
       <option name="presentableId" value="Default" />
       <updated>1510148611096</updated>
       <workItem from="1510148612533" duration="5691000" />
-      <workItem from="1510162704574" duration="4018000" />
+      <workItem from="1510162704574" duration="5061000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1510149146457</created>
@@ -374,17 +347,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9709000" />
+    <option name="totallyTimeSpent" value="10752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />

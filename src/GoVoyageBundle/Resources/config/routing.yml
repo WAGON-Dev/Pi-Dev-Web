@@ -6,10 +6,6 @@ go_voyage_voyagepersonalise:
     resource: "@GoVoyageBundle/Resources/config/routing/voyagepersonalise.yml"
     prefix:   /voyagepersonalise
 
-go_voyage_demande:
-    resource: "@GoVoyageBundle/Resources/config/routing/demande.yml"
-    prefix:   /demande
-
 go_voyage_homepage:
     path:     /
     defaults: { _controller: GoVoyageBundle:Default:index }

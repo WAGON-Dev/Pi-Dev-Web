@@ -103,12 +103,8 @@ class Voyagepersonalise
      */
     private $idGuideFk;
 
-
-
     /**
-     * Get idVp
-     *
-     * @return integer
+     * @return int
      */
     public function getIdVp()
     {
@@ -116,22 +112,14 @@ class Voyagepersonalise
     }
 
     /**
-     * Set nom
-     *
-     * @param string $nom
-     *
-     * @return Voyagepersonalise
+     * @param int $idVp
      */
-    public function setNom($nom)
+    public function setIdVp($idVp)
     {
-        $this->nom = $nom;
-
-        return $this;
+        $this->idVp = $idVp;
     }
 
     /**
-     * Get nom
-     *
      * @return string
      */
     public function getNom()
@@ -140,22 +128,14 @@ class Voyagepersonalise
     }
 
     /**
-     * Set villeDepart
-     *
-     * @param string $villeDepart
-     *
-     * @return Voyagepersonalise
+     * @param string $nom
      */
-    public function setVilleDepart($villeDepart)
+    public function setNom($nom)
     {
-        $this->villeDepart = $villeDepart;
-
-        return $this;
+        $this->nom = $nom;
     }
 
     /**
-     * Get villeDepart
-     *
      * @return string
      */
     public function getVilleDepart()
@@ -164,22 +144,14 @@ class Voyagepersonalise
     }
 
     /**
-     * Set villeArrive
-     *
-     * @param string $villeArrive
-     *
-     * @return Voyagepersonalise
+     * @param string $villeDepart
      */
-    public function setVilleArrive($villeArrive)
+    public function setVilleDepart($villeDepart)
     {
-        $this->villeArrive = $villeArrive;
-
-        return $this;
+        $this->villeDepart = $villeDepart;
     }
 
     /**
-     * Get villeArrive
-     *
      * @return string
      */
     public function getVilleArrive()
@@ -188,22 +160,14 @@ class Voyagepersonalise
     }
 
     /**
-     * Set dateDepart
-     *
-     * @param \DateTime $dateDepart
-     *
-     * @return Voyagepersonalise
+     * @param string $villeArrive
      */
-    public function setDateDepart($dateDepart)
+    public function setVilleArrive($villeArrive)
     {
-        $this->dateDepart = $dateDepart;
-
-        return $this;
+        $this->villeArrive = $villeArrive;
     }
 
     /**
-     * Get dateDepart
-     *
      * @return \DateTime
      */
     public function getDateDepart()
@@ -212,22 +176,14 @@ class Voyagepersonalise
     }
 
     /**
-     * Set dateArrive
-     *
-     * @param \DateTime $dateArrive
-     *
-     * @return Voyagepersonalise
+     * @param \DateTime $dateDepart
      */
-    public function setDateArrive($dateArrive)
+    public function setDateDepart($dateDepart)
     {
-        $this->dateArrive = $dateArrive;
-
-        return $this;
+        $this->dateDepart = $dateDepart;
     }
 
     /**
-     * Get dateArrive
-     *
      * @return \DateTime
      */
     public function getDateArrive()
@@ -236,23 +192,15 @@ class Voyagepersonalise
     }
 
     /**
-     * Set nbrParticipant
-     *
-     * @param integer $nbrParticipant
-     *
-     * @return Voyagepersonalise
+     * @param \DateTime $dateArrive
      */
-    public function setNbrParticipant($nbrParticipant)
+    public function setDateArrive($dateArrive)
     {
-        $this->nbrParticipant = $nbrParticipant;
-
-        return $this;
+        $this->dateArrive = $dateArrive;
     }
 
     /**
-     * Get nbrParticipant
-     *
-     * @return integer
+     * @return int
      */
     public function getNbrParticipant()
     {
@@ -260,23 +208,15 @@ class Voyagepersonalise
     }
 
     /**
-     * Set hotelFk
-     *
-     * @param \GoVoyageBundle\Entity\Users $hotelFk
-     *
-     * @return Voyagepersonalise
+     * @param int $nbrParticipant
      */
-    public function setHotelFk(\GoVoyageBundle\Entity\Users $hotelFk = null)
+    public function setNbrParticipant($nbrParticipant)
     {
-        $this->hotelFk = $hotelFk;
-
-        return $this;
+        $this->nbrParticipant = $nbrParticipant;
     }
 
     /**
-     * Get hotelFk
-     *
-     * @return \GoVoyageBundle\Entity\Users
+     * @return \Users
      */
     public function getHotelFk()
     {
@@ -284,23 +224,15 @@ class Voyagepersonalise
     }
 
     /**
-     * Set clientVpFk
-     *
-     * @param \GoVoyageBundle\Entity\Users $clientVpFk
-     *
-     * @return Voyagepersonalise
+     * @param \Users $hotelFk
      */
-    public function setClientVpFk(\GoVoyageBundle\Entity\Users $clientVpFk = null)
+    public function setHotelFk($hotelFk)
     {
-        $this->clientVpFk = $clientVpFk;
-
-        return $this;
+        $this->hotelFk = $hotelFk;
     }
 
     /**
-     * Get clientVpFk
-     *
-     * @return \GoVoyageBundle\Entity\Users
+     * @return \Users
      */
     public function getClientVpFk()
     {
@@ -308,23 +240,15 @@ class Voyagepersonalise
     }
 
     /**
-     * Set event1Fk
-     *
-     * @param \GoVoyageBundle\Entity\Evenement $event1Fk
-     *
-     * @return Voyagepersonalise
+     * @param \Users $clientVpFk
      */
-    public function setEvent1Fk(\GoVoyageBundle\Entity\Evenement $event1Fk = null)
+    public function setClientVpFk($clientVpFk)
     {
-        $this->event1Fk = $event1Fk;
-
-        return $this;
+        $this->clientVpFk = $clientVpFk;
     }
 
     /**
-     * Get event1Fk
-     *
-     * @return \GoVoyageBundle\Entity\Evenement
+     * @return \Evenement
      */
     public function getEvent1Fk()
     {
@@ -332,26 +256,30 @@ class Voyagepersonalise
     }
 
     /**
-     * Set idGuideFk
-     *
-     * @param \GoVoyageBundle\Entity\Users $idGuideFk
-     *
-     * @return Voyagepersonalise
+     * @param \Evenement $event1Fk
      */
-    public function setIdGuideFk(\GoVoyageBundle\Entity\Users $idGuideFk = null)
+    public function setEvent1Fk($event1Fk)
     {
-        $this->idGuideFk = $idGuideFk;
-
-        return $this;
+        $this->event1Fk = $event1Fk;
     }
 
     /**
-     * Get idGuideFk
-     *
-     * @return \GoVoyageBundle\Entity\Users
+     * @return \Users
      */
     public function getIdGuideFk()
     {
         return $this->idGuideFk;
     }
+
+    /**
+     * @param \Users $idGuideFk
+     */
+    public function setIdGuideFk($idGuideFk)
+    {
+        $this->idGuideFk = $idGuideFk;
+    }
+
+
+
+
 }
